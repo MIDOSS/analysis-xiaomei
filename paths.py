@@ -40,7 +40,7 @@ def salishseacast_paths(timestart, timeend, path = nemoinput):
         
         # check if file exists. exit if it does not. add path to list if it does.
 
-            # U files
+        # U files
         U_path = f'{path}{datestr1}/SalishSea_1h_{datestr2}_{datestr2}_carp_T.nc'
         if not os.path.exists(U_path):
             print(f'File {U_path} not found. Check Directory and/or Date Range.')
